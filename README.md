@@ -8,7 +8,8 @@ doFfmpeg.ps1 processes all wav files in the working folder with ffmpeg. Attentio
 
 batchR3.ps1 processes all wav files in the working folder with rubberband, whose R3 engine is really perfect! I guess ffmpeg only uses it's R2 engine because it runs so fast.
 
-Maybe I will upload a benchmark soon.
+An easy benchmark:
+[NStretcherBenchmark](./NStretcherBenchmark.pdf)
 
 P.S.: 
 
