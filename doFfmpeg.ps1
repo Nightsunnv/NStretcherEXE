@@ -134,7 +134,7 @@ foreach ($inputFile in $inputs) {
     # 方案1：rubberband
     if ($hasRubberband) {
         Write-Host "`n方案1 - Rubberband"
-        $filter = "rubberband=pitchq=${PitchRatio}:tempo=${tempoTarget}"
+        $filter = "rubberband=pitch=${PitchRatio}:tempo=${tempoTarget}"
         $outFile = Join-Path $OutDir "${base}_p${PitchRatio}_t${TimeScale}_rubberband.wav"
         
         Write-Host "滤镜：$filter"
