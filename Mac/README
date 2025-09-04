@@ -1,0 +1,4 @@
+./doFfmpeg.zsh -p 1.12246 -t 0.993 -o converted -f float32
+
+Notice: You'd better download ffmpeg from the official website but not home-brew. Ffmpeg form home-brew doesn't have full support for some filters.
+
