@@ -1,7 +1,13 @@
 ﻿Usage:
 
-    ./NStretcher.exe --time=0.993 --pitch=200 --mode=2
+    ./NStretcher --time=0.993 --pitch=200 --mode=1
     ./NStretcher --time=0.993 --pitch=200 --mode=2
+    ./NStretcher --time=0.993 --pitch=200 --mode=3
+    ./NStretcher --time=0.993 --pitch=200 --mode=4
+    ./doFfmpeg.zsh -t 0.993 -p 1.12246
+    ./doRubberband.zsh -t 0.993 -f 1.12246
+    ./doFfmpeg.ps1
+    ./batchR3.ps1
 
 This program processes all wav files in the working folder by defualt. And it might be the best time-stretch and pitchshift program in the world? I'm not sure, and haven't decided what to do with it.
 

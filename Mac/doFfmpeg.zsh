@@ -8,7 +8,7 @@ setopt extended_glob
 zmodload zsh/datetime
 
 # ============ 参数与默认值 ============
-PITCH_RATIO=1.12246       
+PITCH_RATIO=0.890899   
 TIME_SCALE=0.993          
 OUT_DIR="converted"      
 OUTPUT_FORMAT="float32"   

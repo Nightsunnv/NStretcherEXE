@@ -27,7 +27,7 @@ EOF
 }
 
 tempo=0.993
-frequency=1.12246
+frequency=0.890899
 quiet=false
 
 while getopts ":j:o:t:f:qh" opt; do
